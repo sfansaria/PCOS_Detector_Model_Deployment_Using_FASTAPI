@@ -1,0 +1,45 @@
+from pydantic import BaseModel
+
+class PCOS_Detector(BaseModel):
+      Age: float
+      Weight: float
+      Height: float
+      Height: float
+      #BMI: float
+      Blood_Group: float
+      Pulse_rate: float
+      RR: float
+      Hb: float
+      Cycle: float
+      Cycle_length: float
+      Marraige_Status: float
+      Pregnant: float
+      aborptions: float
+      I_beta_HCG: float
+      II_beta_HCG: float
+      FSH: float
+      LH: float
+      #FSH_BY_LH: object
+      Hip: float
+      Waist: float
+      #Waist_Hip_Ratio: object
+      TSH: float
+      AMH: float
+      PRL: float
+      Vit_D3: float
+      PRG: float
+      RBS: float
+      Weight_gain: float 
+      hair_growth: float
+      Skin_darkening: float
+      Hair_loss: float
+      Pimples: float
+      Fast_food: float
+      Reg_Exercise: float
+      BP_Systolic: float
+      BP_Diastolic: float
+      Follicle_num_l: float
+      Follicle_num_r: float
+      Avg_F_size_L_mm: float
+      Avg_F_size_R_mm: float
+      Endometrium_mm: float
